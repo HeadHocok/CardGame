@@ -52,7 +52,7 @@ public class AI : MonoBehaviour
 
             if (hasProvocation ||
                 Random.Range(0, 1) == 0 &&
-                GameManagerScrypt.Instance.PlayerFieldCards.Count > 0) //В 50% случаев будет бить карту
+                GameManagerScrypt.Instance.PlayerFieldCards.Count > 0) //В 50% случаев будет бить карту или не бить
             {
                 CardController enemy;
 
